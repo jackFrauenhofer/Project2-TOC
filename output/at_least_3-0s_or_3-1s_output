@@ -1,0 +1,28 @@
+Tracing NTM: AtLeast3_0_or_3_1 on input '$0010'
+
+
+Accepted! String was accepted in 6 steps with the config: ['$0010_', 'qacc', '']
+
+
+Degree of Nondeterminism: 1.0909090909090908
+---------------------- NTM Tree Depth Chart ----------------------
+At depth 0: 
+Left Stack:  | Current State: q0 | Right Stack: $0010
+At depth 1: 
+Left Stack: $ | Current State: q2 | Right Stack: 0010
+Left Stack: $ | Current State: q5 | Right Stack: 0010
+At depth 2: 
+Left Stack: $0 | Current State: q3 | Right Stack: 010
+Left Stack: $0 | Current State: q5 | Right Stack: 010
+At depth 3: 
+Left Stack: $00 | Current State: q4 | Right Stack: 10
+Left Stack: $00 | Current State: q5 | Right Stack: 10
+At depth 4: 
+Left Stack: $001 | Current State: q4 | Right Stack: 0
+Left Stack: $001 | Current State: q6 | Right Stack: 0
+At depth 5: 
+Left Stack: $0010 | Current State: q8 | Right Stack: 
+Left Stack: $0010 | Current State: q6 | Right Stack: 
+At depth 6: 
+Left Stack: $0010_ | Current State: qacc | Right Stack: 
+Left Stack: $0010_ | Current State: qrej | Right Stack: 

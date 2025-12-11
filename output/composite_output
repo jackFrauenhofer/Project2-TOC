@@ -1,0 +1,137 @@
+Tracing NTM: Composite_tester on input '111111'
+
+
+Accepted! String was accepted in 27 steps with the config: ['_____', 'qacc', 'x_']
+
+
+Degree of Nondeterminism: 1.0416666666666667
+---------------------- NTM Tree Depth Chart ----------------------
+At depth 0: 
+Left Stack:  | Current State: q1 | Right Stack: 111111
+At depth 1: 
+Left Stack: $ | Current State: q2 | Right Stack: 11111
+At depth 2: 
+Left Stack: $x | Current State: q3 | Right Stack: 1111
+At depth 3: 
+Left Stack: $xx | Current State: q3 | Right Stack: 111
+Left Stack: $ | Current State: q4 | Right Stack: x1111
+At depth 4: 
+Left Stack: $xxx | Current State: q3 | Right Stack: 11
+Left Stack: $x | Current State: q4 | Right Stack: x111
+Left Stack:  | Current State: q4 | Right Stack: $x1111
+At depth 5: 
+Left Stack: $xxxx | Current State: q3 | Right Stack: 1
+Left Stack: $xx | Current State: q4 | Right Stack: x11
+Left Stack: $ | Current State: q4 | Right Stack: xx111
+Left Stack: _ | Current State: q5s | Right Stack: x1111
+At depth 6: 
+Left Stack: $xxxxx | Current State: q3 | Right Stack: 
+Left Stack: $xxx | Current State: q4 | Right Stack: x1
+Left Stack: $x | Current State: q4 | Right Stack: xx11
+Left Stack:  | Current State: q4 | Right Stack: $xx111
+Left Stack: _x | Current State: q5s | Right Stack: 1111
+At depth 7: 
+Left Stack: $xx | Current State: q4 | Right Stack: xx1
+Left Stack: $ | Current State: q4 | Right Stack: xxx11
+Left Stack: _ | Current State: q5s | Right Stack: xx111
+Left Stack: _ | Current State: q6 | Right Stack: x$111
+At depth 8: 
+Left Stack: $x | Current State: q4 | Right Stack: xxx1
+Left Stack:  | Current State: q4 | Right Stack: $xxx11
+Left Stack: _x | Current State: q5s | Right Stack: x111
+Left Stack:  | Current State: q6 | Right Stack: _x$111
+At depth 9: 
+Left Stack: $ | Current State: q4 | Right Stack: xxxx1
+Left Stack: _ | Current State: q5s | Right Stack: xxx11
+Left Stack: _xx | Current State: q5s | Right Stack: 111
+Left Stack: _ | Current State: q7 | Right Stack: x$111
+At depth 10: 
+Left Stack:  | Current State: q4 | Right Stack: $xxxx1
+Left Stack: _x | Current State: q5s | Right Stack: xx11
+Left Stack: _x | Current State: q6 | Right Stack: x$11
+Left Stack: __ | Current State: q5x | Right Stack: $111
+At depth 11: 
+Left Stack: _ | Current State: q5s | Right Stack: xxxx1
+Left Stack: _xx | Current State: q5s | Right Stack: x11
+Left Stack: _ | Current State: q6 | Right Stack: xx$11
+Left Stack: __$ | Current State: q5x | Right Stack: 111
+At depth 12: 
+Left Stack: _x | Current State: q5s | Right Stack: xxx1
+Left Stack: _xxx | Current State: q5s | Right Stack: 11
+Left Stack:  | Current State: q6 | Right Stack: _xx$11
+Left Stack: __ | Current State: q6 | Right Stack: $x11
+At depth 13: 
+Left Stack: _xx | Current State: q5s | Right Stack: xx1
+Left Stack: _xx | Current State: q6 | Right Stack: x$1
+Left Stack: _ | Current State: q7 | Right Stack: xx$11
+Left Stack: _ | Current State: q6 | Right Stack: _$x11
+At depth 14: 
+Left Stack: _xxx | Current State: q5s | Right Stack: x1
+Left Stack: _x | Current State: q6 | Right Stack: xx$1
+Left Stack: __ | Current State: q5x | Right Stack: x$11
+Left Stack: __ | Current State: q7 | Right Stack: $x11
+At depth 15: 
+Left Stack: _xxxx | Current State: q5s | Right Stack: 1
+Left Stack: _ | Current State: q6 | Right Stack: xxx$1
+Left Stack: ___ | Current State: q5x | Right Stack: $11
+Left Stack: ___ | Current State: q5s | Right Stack: x11
+At depth 16: 
+Left Stack: _xxx | Current State: q6 | Right Stack: x$
+Left Stack:  | Current State: q6 | Right Stack: _xxx$1
+Left Stack: ___$ | Current State: q5x | Right Stack: 11
+Left Stack: ___x | Current State: q5s | Right Stack: 11
+At depth 17: 
+Left Stack: _xx | Current State: q6 | Right Stack: xx$
+Left Stack: _ | Current State: q7 | Right Stack: xxx$1
+Left Stack: ___ | Current State: q6 | Right Stack: $x1
+Left Stack: ___ | Current State: q6 | Right Stack: x$1
+At depth 18: 
+Left Stack: _x | Current State: q6 | Right Stack: xxx$
+Left Stack: __ | Current State: q5x | Right Stack: xx$1
+Left Stack: __ | Current State: q6 | Right Stack: _$x1
+Left Stack: __ | Current State: q6 | Right Stack: _x$1
+At depth 19: 
+Left Stack: _ | Current State: q6 | Right Stack: xxxx$
+Left Stack: ___ | Current State: q5x | Right Stack: x$1
+Left Stack: ___ | Current State: q7 | Right Stack: $x1
+Left Stack: ___ | Current State: q7 | Right Stack: x$1
+At depth 20: 
+Left Stack:  | Current State: q6 | Right Stack: _xxxx$
+Left Stack: ____ | Current State: q5x | Right Stack: $1
+Left Stack: ____ | Current State: q5s | Right Stack: x1
+Left Stack: ____ | Current State: q5x | Right Stack: $1
+At depth 21: 
+Left Stack: _ | Current State: q7 | Right Stack: xxxx$
+Left Stack: ____$ | Current State: q5x | Right Stack: 1
+Left Stack: ____x | Current State: q5s | Right Stack: 1
+Left Stack: ____$ | Current State: q5x | Right Stack: 1
+At depth 22: 
+Left Stack: __ | Current State: q5x | Right Stack: xxx$
+Left Stack: ____ | Current State: q6 | Right Stack: $x
+Left Stack: ____ | Current State: q6 | Right Stack: x$
+Left Stack: ____ | Current State: q6 | Right Stack: $x
+At depth 23: 
+Left Stack: ___ | Current State: q5x | Right Stack: xx$
+Left Stack: ___ | Current State: q6 | Right Stack: _$x
+Left Stack: ___ | Current State: q6 | Right Stack: _x$
+Left Stack: ___ | Current State: q6 | Right Stack: _$x
+At depth 24: 
+Left Stack: ____ | Current State: q5x | Right Stack: x$
+Left Stack: ____ | Current State: q7 | Right Stack: $x
+Left Stack: ____ | Current State: q7 | Right Stack: x$
+Left Stack: ____ | Current State: q7 | Right Stack: $x
+At depth 25: 
+Left Stack: _____ | Current State: q5x | Right Stack: $
+Left Stack: _____ | Current State: q5s | Right Stack: x
+Left Stack: _____ | Current State: q5x | Right Stack: $
+Left Stack: _____ | Current State: q5s | Right Stack: x
+At depth 26: 
+Left Stack: _____$ | Current State: q5x | Right Stack: 
+Left Stack: _____x | Current State: q5s | Right Stack: 
+Left Stack: _____$ | Current State: q5x | Right Stack: 
+Left Stack: _____x | Current State: q5s | Right Stack: 
+At depth 27: 
+Left Stack: _____ | Current State: qrej | Right Stack: $_
+Left Stack: _____ | Current State: qacc | Right Stack: x_
+Left Stack: _____ | Current State: qrej | Right Stack: $_
+Left Stack: _____ | Current State: qacc | Right Stack: x_

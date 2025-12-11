@@ -1,0 +1,73 @@
+Tracing NTM: {w | w has the same number of 0's and 1's} Nondeterministic on input '010101'
+
+
+Accepted! String was accepted in 25 steps with the config: ['_xxxxx_', 'qacc', '']
+
+
+Degree of Nondeterminism: 1.0833333333333333
+---------------------- NTM Tree Depth Chart ----------------------
+At depth 0: 
+Left Stack:  | Current State: q0 | Right Stack: 010101
+At depth 1: 
+Left Stack: _ | Current State: q1 | Right Stack: 10101
+At depth 2: 
+Left Stack:  | Current State: q3 | Right Stack: _x0101
+At depth 3: 
+Left Stack: _ | Current State: q4 | Right Stack: x0101
+Left Stack: _ | Current State: q5 | Right Stack: x0101
+At depth 4: 
+Left Stack: _x | Current State: q4 | Right Stack: 0101
+Left Stack: _x | Current State: q5 | Right Stack: 0101
+At depth 5: 
+Left Stack: _xx | Current State: q1 | Right Stack: 101
+At depth 6: 
+Left Stack: _x | Current State: q3 | Right Stack: xx01
+At depth 7: 
+Left Stack: _ | Current State: q3 | Right Stack: xxx01
+At depth 8: 
+Left Stack:  | Current State: q3 | Right Stack: _xxx01
+At depth 9: 
+Left Stack: _ | Current State: q4 | Right Stack: xxx01
+Left Stack: _ | Current State: q5 | Right Stack: xxx01
+At depth 10: 
+Left Stack: _x | Current State: q4 | Right Stack: xx01
+Left Stack: _x | Current State: q5 | Right Stack: xx01
+At depth 11: 
+Left Stack: _xx | Current State: q4 | Right Stack: x01
+Left Stack: _xx | Current State: q5 | Right Stack: x01
+At depth 12: 
+Left Stack: _xxx | Current State: q4 | Right Stack: 01
+Left Stack: _xxx | Current State: q5 | Right Stack: 01
+At depth 13: 
+Left Stack: _xxxx | Current State: q1 | Right Stack: 1
+At depth 14: 
+Left Stack: _xxx | Current State: q3 | Right Stack: xx
+At depth 15: 
+Left Stack: _xx | Current State: q3 | Right Stack: xxx
+At depth 16: 
+Left Stack: _x | Current State: q3 | Right Stack: xxxx
+At depth 17: 
+Left Stack: _ | Current State: q3 | Right Stack: xxxxx
+At depth 18: 
+Left Stack:  | Current State: q3 | Right Stack: _xxxxx
+At depth 19: 
+Left Stack: _ | Current State: q4 | Right Stack: xxxxx
+Left Stack: _ | Current State: q5 | Right Stack: xxxxx
+At depth 20: 
+Left Stack: _x | Current State: q4 | Right Stack: xxxx
+Left Stack: _x | Current State: q5 | Right Stack: xxxx
+At depth 21: 
+Left Stack: _xx | Current State: q4 | Right Stack: xxx
+Left Stack: _xx | Current State: q5 | Right Stack: xxx
+At depth 22: 
+Left Stack: _xxx | Current State: q4 | Right Stack: xx
+Left Stack: _xxx | Current State: q5 | Right Stack: xx
+At depth 23: 
+Left Stack: _xxxx | Current State: q4 | Right Stack: x
+Left Stack: _xxxx | Current State: q5 | Right Stack: x
+At depth 24: 
+Left Stack: _xxxxx | Current State: q4 | Right Stack: 
+Left Stack: _xxxxx | Current State: q5 | Right Stack: 
+At depth 25: 
+Left Stack: _xxxx | Current State: q3 | Right Stack: x_
+Left Stack: _xxxxx_ | Current State: qacc | Right Stack: 

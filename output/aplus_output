@@ -1,0 +1,21 @@
+Tracing NTM: a plus on input 'aaa'
+
+
+Accepted! String was accepted in 4 steps with the config: ['aa', 'q3', 'a_']
+
+
+Degree of Nondeterminism: 1.75
+---------------------- NTM Tree Depth Chart ----------------------
+At depth 0: 
+Left Stack:  | Current State: q1 | Right Stack: aaa
+At depth 1: 
+Left Stack: a | Current State: q1 | Right Stack: aa
+Left Stack: a | Current State: q2 | Right Stack: aa
+At depth 2: 
+Left Stack: aa | Current State: q1 | Right Stack: a
+Left Stack: aa | Current State: q2 | Right Stack: a
+At depth 3: 
+Left Stack: aaa | Current State: q1 | Right Stack: 
+Left Stack: aaa | Current State: q2 | Right Stack: 
+At depth 4: 
+Left Stack: aa | Current State: q3 | Right Stack: a_
